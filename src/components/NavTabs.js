@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../images/Consagra.Peter.Resume.pdf'
 
 // TODO: Add a comment explaining how we are able to extract the key value pairs from props
 
@@ -38,7 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="nav-item">
           <a
-            href="#resume"
+            href={resume}
             onClick={() => handlePageChange('Resume')}
             //  TODO: Add a comment explaining what this logic is doing
 

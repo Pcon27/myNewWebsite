@@ -1,5 +1,5 @@
 import React from 'react';
-import peteImage from '../../../me.jpg'
+import peteImage from '../../images/me.jpg'
 
 const styles = {
   card: {
