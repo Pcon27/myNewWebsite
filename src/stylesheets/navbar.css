@@ -1,0 +1,45 @@
+:root {
+    --primary: black;
+    --secondary: green;
+    --tertiary: lightblue;
+    --font: helvetica;
+    --normal: normal;
+};
+
+.wtf {
+    
+    display: flex;
+    justify-content: right;
+}
+
+.name{
+    color: white;
+    font-family: cursive;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+.nav-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--secondary);
+    align-items: center;
+    width: 100vw;
+}
+
+.nav-item{
+    font: var(--font);
+    color: yellow;
+}
+
+.nav-link{
+    color: violet;
+    font-weight: lighter;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
