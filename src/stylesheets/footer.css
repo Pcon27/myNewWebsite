@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--primary);
+    width: 100vw;
+    background-color: var(--tertiary);
+    border-color: solid var(--tertiary);
+    color: var(--primary);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+li{
+    color: green;
+}
+.FooterLink{
+    display: flex;
+    flex-direction: row;
+    color: green;
+}

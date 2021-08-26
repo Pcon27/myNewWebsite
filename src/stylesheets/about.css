@@ -1,27 +1,32 @@
 :root {
-    --primary: black;
-    --secondary: green;
-    --tertiary: lightblue;
+    --primary: #fcfcf3;
+    --secondary: #CA9393;
+    --tertiary: black;
     --font: helvetica;
     --normal: normal;
 };
 
-div{
+
+body{
     display: flex;
     flex-direction: row;
+    background-color: var(--primary)
 }
 
 .info{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 #title {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: violet;
+    background-color: var(--primary);
     width: 100%;
     display: flex;
     flex-direction: row;
+    color: var(--secondary);
+    margin-left: 5vw;
 }
 
 #peteImage{
@@ -30,4 +35,33 @@ div{
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+    width: 40vw;
+    margin-left: 2.5vw;
+    line-height: 30px;
 }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: var(--tertiary);
+    border-color: solid var(--tertiary);
+    color: var(--tertiary);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: menlo;
+    text-decoration: none;
+}
+
+.FooterLink{
+    color: var(--primary);
+    text-decoration: none;
+    font-family: menlo;
+}
+
+/* a:-webkit-any-link {
+    color: var(--primary);
+    cursor: pointer;
+    text-decoration: none;
+} */

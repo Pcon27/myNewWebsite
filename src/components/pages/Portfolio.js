@@ -10,7 +10,7 @@ import '../../stylesheets/portfolio.css'
 export default function Home() {
   return (
 <div>
-  <h2 id="portfolio">Portfolio</h2>
+  <h2 id="title">Portfolio</h2>
 
 
   <section id="otherProjects" className="SMLPJ">

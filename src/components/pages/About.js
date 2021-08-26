@@ -13,6 +13,7 @@ export default function About() {
         I am a current Senior at the University of California, Los Angeles (UCLA) pursuing a degree in Political Science. I am also currently enrolled in the UC Berkely Extensions Full Stack Developer Boot Camp, and hope to persue product development in the tech industry when I complete my studies. I am currently seeking a role in web development, UX/UI design, software development, or Product Management. I enjoy playing tennis, woodworinking, hiking, and supporting the sports teams from my local San Francisco in my free time.
         </p>
       </section>
+
     </div>
   );
 }

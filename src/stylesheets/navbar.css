@@ -1,22 +1,37 @@
 :root {
-    --primary: black;
-    --secondary: green;
-    --tertiary: lightblue;
-    --font: helvetica;
+    --primary: #fcfcf3;
+    --secondary: #CA9393;
+    --tertiary: black;
+    --font: menlo;
     --normal: normal;
 };
 
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary)
+}
+
 .wtf {
-    
+    margin-left: 0px;
+    margin-top: 0px;
     display: flex;
     justify-content: right;
+    align-content: center;
 }
 
 .name{
-    color: white;
-    font-family: cursive;
-    margin-left: 0px;
+    color: var(--primary);
+    font-family: menlo;
+    margin-left: -50px;
     justify-content: space-between;
+    background-color: var(--secondary);
+    border-color: solid var(--secondary);
 }
 
 .nav-tabs{
@@ -30,16 +45,38 @@
 
 .nav-item{
     font: var(--font);
-    color: yellow;
+    color: var(--secondary);
 }
 
 .nav-link{
-    color: violet;
+    color: black;
     font-weight: lighter;
-    font-family: cursive;
+    font-family: menlo;
     text-decoration: none;
 }
 
 .active {
+    color: var(--primary);
     text-decoration: underline;
+}
+
+.nav-link:hover{
+    color: var(--primary);
+}
+
+.footer{
+    color: var(--tertiary)
+}
+
+a {
+    color: var(--primary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: var(--secondary);
+    cursor: pointer;
+    text-decoration: none;
 }

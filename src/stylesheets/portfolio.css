@@ -1,9 +1,23 @@
+:root {
+    --primary: #fcfcf3;
+    --secondary: #CA9393;
+    --tertiary: black;
+    --font: helvetica;
+    --normal: normal;
+};
+
 #portfolio{
-    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: var(--secondary);
+    margin-left: 5vw;
 }
 
 #otherProjects {
-    margin-left: 2.5%;
+    margin-left: 2.5vw;
     width: 92.5%;
     display: flex;
     flex-direction: row;
@@ -26,6 +40,11 @@
 
 .SMLIMG:hover {
     border: solid var(--secondary);
+}
+
+label{
+    color: var(--tertiary);
+    font-family: menlo;
 }
 
 .about p{

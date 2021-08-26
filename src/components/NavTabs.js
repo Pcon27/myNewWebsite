@@ -2,9 +2,6 @@ import React from 'react';
 import resume from '../images/Consagra.Peter.Resume.pdf'
 import "../stylesheets/navbar.css"
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-
-// We are able to use object deconstruction by dividing props into two seperate items
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
