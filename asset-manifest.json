@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/myNewWebsite/static/css/main.a1963f6e.chunk.css",
+    "main.js": "/myNewWebsite/static/js/main.64b7eb95.chunk.js",
+    "main.js.map": "/myNewWebsite/static/js/main.64b7eb95.chunk.js.map",
+    "runtime-main.js": "/myNewWebsite/static/js/runtime-main.eeb9d964.js",
+    "runtime-main.js.map": "/myNewWebsite/static/js/runtime-main.eeb9d964.js.map",
+    "static/js/2.86bd977e.chunk.js": "/myNewWebsite/static/js/2.86bd977e.chunk.js",
+    "static/js/2.86bd977e.chunk.js.map": "/myNewWebsite/static/js/2.86bd977e.chunk.js.map",
+    "index.html": "/myNewWebsite/index.html",
+    "static/css/main.a1963f6e.chunk.css.map": "/myNewWebsite/static/css/main.a1963f6e.chunk.css.map",
+    "static/js/2.86bd977e.chunk.js.LICENSE.txt": "/myNewWebsite/static/js/2.86bd977e.chunk.js.LICENSE.txt",
+    "static/media/Consagra.Peter.Resume.a3f2855e.pdf": "/myNewWebsite/static/media/Consagra.Peter.Resume.a3f2855e.pdf",
+    "static/media/Jam-Map.75d9a472.png": "/myNewWebsite/static/media/Jam-Map.75d9a472.png",
+    "static/media/Reciplease.cdc0d139.png": "/myNewWebsite/static/media/Reciplease.cdc0d139.png",
+    "static/media/Weather-Tracker.1a1675b1.png": "/myNewWebsite/static/media/Weather-Tracker.1a1675b1.png",
+    "static/media/WorkoutTracker.4c0c5d42.png": "/myNewWebsite/static/media/WorkoutTracker.4c0c5d42.png",
+    "static/media/budgetTracker.4684ea03.png": "/myNewWebsite/static/media/budgetTracker.4684ea03.png",
+    "static/media/me.5afecc4b.jpg": "/myNewWebsite/static/media/me.5afecc4b.jpg",
+    "static/media/passwordGenerator.0ebce15e.png": "/myNewWebsite/static/media/passwordGenerator.0ebce15e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eeb9d964.js",
+    "static/js/2.86bd977e.chunk.js",
+    "static/css/main.a1963f6e.chunk.css",
+    "static/js/main.64b7eb95.chunk.js"
+  ]
+}
