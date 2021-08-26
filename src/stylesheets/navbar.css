@@ -80,3 +80,33 @@ a:hover {
     cursor: pointer;
     text-decoration: none;
 }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+       
+        flex-direction: column;
+
+    }
+    
+    .wtf {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: right;
+        align-content: center;
+    }
+
+    .nav-tabs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: var(--secondary);
+        align-items: center;
+        width: 100vw;
+        line-height: 30px;
+    }
+}

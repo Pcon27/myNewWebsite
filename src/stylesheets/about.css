@@ -10,7 +10,12 @@
 body{
     display: flex;
     flex-direction: row;
-    background-color: var(--primary)
+    background-color: var(--primary);
+    width: 100vw;
+}
+
+div{
+    width: 100vw;
 }
 
 .info{
@@ -60,8 +65,17 @@ p{
     font-family: menlo;
 }
 
-/* a:-webkit-any-link {
-    color: var(--primary);
-    cursor: pointer;
-    text-decoration: none;
-} */
+
+@media screen and (max-width: 768px) {
+    .info{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 95vw;
+        margin-left: 2.5vw;
+        line-height: 30px;
+    }
+}
