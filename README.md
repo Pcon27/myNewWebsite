@@ -47,6 +47,6 @@ Github: (https://github.com/pcon27)
 
 ## Code
 
-![live site](https://github.com/Pcon27/BudgetTracker/blob/a2c7911310402fb1564675be9fa9c994b950b84a/manifest.png)
+![live site](https://github.com/Pcon27/myNewWebsite/blob/45b7055aaf6f3b8c56525537ac9a82655fa142e6/src/images/liveLink.png)
 
-![NavTabs](https://github.com/Pcon27/BudgetTracker/blob/a2c7911310402fb1564675be9fa9c994b950b84a/node%20modules.png)
+![NavTabs](https://github.com/Pcon27/myNewWebsite/blob/45b7055aaf6f3b8c56525537ac9a82655fa142e6/src/images/navtabs.png)
