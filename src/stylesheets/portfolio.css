@@ -1,0 +1,33 @@
+#portfolio{
+    color: wheat;
+}
+
+#otherProjects {
+    margin-left: 2.5%;
+    width: 92.5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.SMLPJ {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+    flex-flow: wrap;
+}
+
+.SMLIMG {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.SMLIMG:hover {
+    border: solid var(--secondary);
+}
+
+.about p{
+    margin-left: 2.5%;
+}
