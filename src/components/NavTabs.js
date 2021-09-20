@@ -2,7 +2,6 @@ import React from 'react';
 import resume from '../images/Consagra.Peter.Resume.09.12.21docx.pdf'
 import "../stylesheets/navbar.css"
 
-
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 
