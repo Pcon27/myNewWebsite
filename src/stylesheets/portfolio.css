@@ -51,6 +51,17 @@ label{
     margin-left: 2.5%;
 }
 
+a {
+    color: var(--secondary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 768px){
     #otherProjects {
         margin-left: 2.5vw;
