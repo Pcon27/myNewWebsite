@@ -10,7 +10,8 @@ export default function About() {
       <section className="info">
         <img id="peteImage" src={peteImage} alt="peteImage"></img>
         <p>
-        Full Stack Web Developer and Senior at University of California, Los Angeles (UCLA) persuing a BS in Political Science. Effective at combining creativity and problem solving to develop user-friendly applications. Known to have a strong interest in intuitive user stories and product UX. 
+        Recent UCLA graduate with a certificate in web-development, and a B.A. in political science, pursuing a career in product development. Effective at combining creativity and problem solving to develop user-friendly applications. Known to have a strong interest in intuitive user stories and product UX. 
+        
         </p>
       </section>
 
